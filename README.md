@@ -2,7 +2,7 @@
 Deploy FastAPI dengan menggunakan App Engine
 
 
-## Prerequisites
+## Kebutuhan
 * Pyenv (optional)
 * Virtualenv (optional)
 * Python 3.8.2
@@ -10,7 +10,7 @@ Deploy FastAPI dengan menggunakan App Engine
 * Google Cloud Platform - API Cloud Build
 
 
-## Running Local
+## Jalankan secara lokal
 ```
 $ virtualenv -p python3.8.2 .venv
 $ source .venv/bin/activate
@@ -18,7 +18,7 @@ $ pip install -r requirements.txt
 $ gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app
 ```
 
-## Deploy Production
+## Cara deploy ke app-engine
 ```
 $ gcloud app create
 $ gcloud app deploy app.yaml --project <project_id>
