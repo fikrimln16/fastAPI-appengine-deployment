@@ -5,7 +5,7 @@ Deploy FastAPI dengan menggunakan App Engine
 ## Kebutuhan
 * Pyenv (optional)
 * Virtualenv (optional)
-* Python 3.8.2
+* Python 3.9
 * Google Cloud Platform Account
 * Google Cloud Platform - API Cloud Build
 
